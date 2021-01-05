@@ -1,0 +1,37 @@
+.storage{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .storage__add{
+    margin-right: 60%;
+    margin-bottom: 10px;
+  }
+  .storage__update,.storage__delete{
+    margin-right:10px !important;
+  }
+  .storage__update{
+      background-color:green !important;
+  }
+  .storage__submit{
+    margin-top: 10px !important;
+}
+.storage__checkout{
+    background-color: rgb(23, 5, 87) !important;
+}
